@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int N;
+  double ST = 0;
+  cin >> N;
+
+  for (int i = 1; i <= N; i++) {
+    ST = ST + (double)i / (i + 1);
+  }
+  cout << "El resultado de la sumatoria ST es: " << ST << endl;
+  return 0;
+}
