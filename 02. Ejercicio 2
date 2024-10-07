@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i,n;
+    int a=0;
+    cin>>n;
+    for (i=1 ; i<= n ; i++)
+    {
+        a=a+(2*i+5);
+    }
+    cout<<a;
+}
