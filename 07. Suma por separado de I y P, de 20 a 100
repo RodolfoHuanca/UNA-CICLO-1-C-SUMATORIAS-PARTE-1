@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int sumaPares = 0, sumaImpares = 0;
+    for (int i = 20; i <= 100; ++i) {
+        if (i % 2 == 0) {
+            sumaPares = sumaPares + i;
+        } else {
+            sumaImpares = sumaImpares + i;
+        }
+    }
+    cout << "La suma de pares entre 20 y 100 es: " << sumaPares << endl;
+    cout << "La suma de impares entre 20 y 100 es: " << sumaImpares;
+    return 0;
+}
