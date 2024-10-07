@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int N,i,x;
+    x = 0;
+    cin >> N;
+    for ( i=1 ; i<=N; ++i ){
+        x=x+i;
+    }
+    cout<< x << endl;
+
+    return 0;
+}
