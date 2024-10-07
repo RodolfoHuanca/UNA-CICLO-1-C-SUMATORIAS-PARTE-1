@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int N,i;
+    int suma = 0;
+    cin >> N;
+    for ( i = 0; i < N; ++i) {
+        suma=suma + (2 * i + 1);
+    }
+    cout << suma << endl;
+    return 0;
+}
